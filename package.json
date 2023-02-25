@@ -1,0 +1,31 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NhatTien1993/blog.git"
+  },
+  "keywords": [
+    "moore",
+    "nodejs",
+    "nhat"
+  ],
+  "author": "tiennhat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NhatTien1993/blog/issues"
+  },
+  "homepage": "https://github.com/NhatTien1993/blog#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
