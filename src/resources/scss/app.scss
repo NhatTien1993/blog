@@ -1,0 +1,6 @@
+@import "./variables"; // phải có dấu ; cuối dòng
+
+h1 {
+    color: $red_color;
+    font-size: 20px;
+}
