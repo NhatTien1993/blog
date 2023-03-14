@@ -1,0 +1,33 @@
+<div class='mt-4 mb-4'>
+  <form method='post' action=''>
+    {{!action la routing khi submid, medthod default laf get }}
+    <div class='formgroup'>
+      <label for='search-input'>Search Input</label>
+      {{! <input type="text" name="name"> }}
+      <input
+        type='text'
+        name='val'
+        class='form-control'
+        id='search-input'
+        placeholder='Search ...'
+      />
+
+    </div>
+    <div class='formgroup'>
+      <label for='gender-input'>Gender</label>
+      <select name='gender' class='form-control' id='gender-input'>
+        <option value=''>-- Gioi tinh --</option>
+        <option value='male'>Nam</option>
+        <option value='female'>Nu</option>
+      </select>
+
+    </div>
+
+    <button type='submit' class='btn btn-primary mt-2'>Search</button>
+  </form>
+  {{! khi submid form se gui request voi PT get(default) url kem params trong form
+    query string parameters {
+    name: tien nhat
+    val: f8
+    } }}
+</div>
